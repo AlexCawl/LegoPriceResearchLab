@@ -80,7 +80,7 @@ class BaseRegressionModel(RegressionModelApi):
         )
 
     @measure_execution_time
-    def test(self, x: pd.DataFrame, y: pd.DataFrame, path: Optional[str] = None) -> Tuple[pd.DataFrame, pd.DataFrame]:
+    def test(self, x: pd.DataFrame, y: pd.DataFrame, path: Optional[str] = None) -> None:
         if not self.__state:
             raise Exception("Model not trained!")
 
@@ -94,4 +94,3 @@ class BaseRegressionModel(RegressionModelApi):
                 "TEST_R2": r2 if r2 >= -1 else -1
             }
         )
-        return y, prediction
