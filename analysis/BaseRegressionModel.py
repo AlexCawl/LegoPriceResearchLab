@@ -41,7 +41,7 @@ class BaseRegressionModel(RegressionModelApi):
         # init params
         self.__params = params
         # init cross-validator
-        self.__cv = RepeatedStratifiedKFold(n_splits=3, n_repeats=1, random_state=36851234)
+        self.__cv = RepeatedStratifiedKFold(n_splits=2, n_repeats=1, random_state=36851234)
         # init logs
         self.__report = dict()
         # init search

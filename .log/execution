@@ -1,97 +1,95 @@
-START: 2023-12-22 21:36:00.283585
+START: 2023-12-23 01:19:13.513811
 
 SELECTOR_NAME: Theme name
-SELECTOR_MODEL: LeastSquaresLinearRegressionModel
-0: {'params': {'copy_X': True, 'fit_intercept': False}, 'TRAIN_R2': 0.999516886351235, 'MAE': 451517132.40309787, 'MSE': 8.571977781408623e+17, 'RMSE': 925849760.0263567, 'TEST_R2': 0.9995263405671604}
-1: {'params': {'copy_X': True, 'fit_intercept': False}, 'TRAIN_R2': 1.0, 'MAE': 1.4717213080939608e-09, 'MSE': 3.1008991993304277e-18, 'RMSE': 1.7609370231017427e-09, 'TEST_R2': 1.0}
-2: {'params': {'copy_X': True, 'fit_intercept': False}, 'TRAIN_R2': 0.5547964526066584, 'MAE': 39238879195.90682, 'MSE': 2.551606610748276e+21, 'RMSE': 50513430003.79479, 'TEST_R2': 0.5644822817767221}
-3: {'params': {'copy_X': True, 'fit_intercept': False}, 'TRAIN_R2': 0.7293801690684583, 'MAE': 20543481611.603535, 'MSE': 7.411706293816226e+20, 'RMSE': 27224449110.70971, 'TEST_R2': 0.7282252566915455}
-4: {'params': {'copy_X': True, 'fit_intercept': False}, 'TRAIN_R2': 0.7511190042241616, 'MAE': 10359885785.021158, 'MSE': 1.613296416046567e+20, 'RMSE': 12701560597.212324, 'TEST_R2': 0.7420847242138731}
-5: {'params': {'copy_X': True, 'fit_intercept': False}, 'TRAIN_R2': 0.0, 'MAE': 0.00045797492710286273, 'MSE': 2.116433908625092e-07, 'RMSE': 0.0004600471615633654, 'TEST_R2': 0.0}
-6: {'params': {'copy_X': True, 'fit_intercept': False}, 'TRAIN_R2': 1.0, 'MAE': 9.671105172525363e-05, 'MSE': 1.2321703477444051e-08, 'RMSE': 0.00011100316877208529, 'TEST_R2': 1.0}
-7: {'params': {'copy_X': True, 'fit_intercept': False}, 'TRAIN_R2': 0.0, 'MAE': 5.954464681575821e-10, 'MSE': 3.560883423801954e-19, 'RMSE': 5.9673138209767e-10, 'TEST_R2': 0.0}
-8: {'params': {'copy_X': True, 'fit_intercept': False}, 'TRAIN_R2': 0.9394145260951375, 'MAE': 2393718666.711136, 'MSE': 1.1672284143740787e+19, 'RMSE': 3416472470.800956, 'TEST_R2': 0.9406907528468114}
-9: {'params': {'copy_X': True, 'fit_intercept': False}, 'TRAIN_R2': 1.0, 'MAE': 0.10929327858047895, 'MSE': 0.01196548363048213, 'RMSE': 0.10938685309707986, 'TEST_R2': 1.0}
-10: {'params': {'copy_X': True, 'fit_intercept': False}, 'TRAIN_R2': 1.0, 'MAE': 0.0005658375563517968, 'MSE': 3.2117386129920707e-07, 'RMSE': 0.0005667220317750203, 'TEST_R2': 1.0}
-11: {'params': {'copy_X': True, 'fit_intercept': False}, 'TRAIN_R2': 0.0, 'MAE': 2.287160123061154e-05, 'MSE': 7.086590070824358e-10, 'RMSE': 2.6620650012395186e-05, 'TEST_R2': 0.0}
-12: {'params': {'copy_X': True, 'fit_intercept': False}, 'TRAIN_R2': 0.8961044949110756, 'MAE': 2604777323.135233, 'MSE': 1.693186439484087e+19, 'RMSE': 4114834674.05932, 'TEST_R2': 0.8921994610637412}
-13: {'params': {'copy_X': True, 'fit_intercept': False}, 'TRAIN_R2': 0.0, 'MAE': 5.278506760276226e-05, 'MSE': 3.953906812818881e-09, 'RMSE': 6.288009870236275e-05, 'TEST_R2': 0.0}
-14: {'params': {'copy_X': True, 'fit_intercept': False}, 'TRAIN_R2': 0.9156064772824831, 'MAE': 4504714809.588688, 'MSE': 3.2732029188178047e+19, 'RMSE': 5721191238.5602045, 'TEST_R2': 0.9175471123541024}
-15: {'params': {'copy_X': True, 'fit_intercept': False}, 'TRAIN_R2': 0.7070745435879564, 'MAE': 2211050843.3357267, 'MSE': 1.4313605513278882e+19, 'RMSE': 3783332593.531645, 'TEST_R2': 0.720402863117916}
-16: {'params': {'copy_X': True, 'fit_intercept': False}, 'TRAIN_R2': 0.8244316140352146, 'MAE': 13915558022.985176, 'MSE': 4.7410279630259225e+20, 'RMSE': 21773901724.371593, 'TEST_R2': 0.8189775875202676}
-17: {'params': {'copy_X': True, 'fit_intercept': False}, 'TRAIN_R2': 0.9988003413994756, 'MAE': 980173049.7920406, 'MSE': 3.3175684920474163e+18, 'RMSE': 1821419361.9393137, 'TEST_R2': 0.9987972067899418}
-18: {'params': {'copy_X': True, 'fit_intercept': False}, 'TRAIN_R2': 0.0, 'MAE': 5.93257741739521e-10, 'MSE': 3.6161607152130625e-19, 'RMSE': 6.013452182576214e-10, 'TEST_R2': 0.0}
-19: {'params': {'copy_X': True, 'fit_intercept': False}, 'TRAIN_R2': 0.9855404710760938, 'MAE': 3080023686.0226727, 'MSE': 2.2119829890224943e+19, 'RMSE': 4703172321.978533, 'TEST_R2': 0.985005258226642}
-20: {'params': {'copy_X': True, 'fit_intercept': False}, 'TRAIN_R2': 0.7864062261236664, 'MAE': 9888238491.803444, 'MSE': 4.685774315896067e+20, 'RMSE': 21646649431.02296, 'TEST_R2': 0.7808437805714454}
-21: {'params': {'copy_X': True, 'fit_intercept': False}, 'TRAIN_R2': 0.024391904517124696, 'MAE': 36586346580.97083, 'MSE': 2.90936734637351e+21, 'RMSE': 53938551578.37954, 'TEST_R2': 0.02567598162907181}
-22: {'params': {'copy_X': True, 'fit_intercept': False}, 'TRAIN_R2': 0.401310517668686, 'MAE': 50090344780.63567, 'MSE': 4.065241012503899e+21, 'RMSE': 63759242565.32459, 'TEST_R2': 0.4028523700987462}
-23: {'params': {'copy_X': True, 'fit_intercept': False}, 'TRAIN_R2': 0.0, 'MAE': 2.7119612493434872e-05, 'MSE': 8.017004725812864e-10, 'RMSE': 2.8314315682729937e-05, 'TEST_R2': 0.0}
-24: {'params': {'copy_X': True, 'fit_intercept': False}, 'TRAIN_R2': 0.0, 'MAE': 4.588031462523335e-10, 'MSE': 2.311737242285983e-19, 'RMSE': 4.808052872302865e-10, 'TEST_R2': 0.0}
-25: {'params': {'copy_X': True, 'fit_intercept': False}, 'TRAIN_R2': 1.0, 'MAE': 3.9683554762153214e-05, 'MSE': 1.959909804342381e-09, 'RMSE': 4.427086857451953e-05, 'TEST_R2': 1.0}
-26: {'params': {'copy_X': True, 'fit_intercept': False}, 'TRAIN_R2': 0.7927963933400928, 'MAE': 15495570406.62442, 'MSE': 2.7357032548674522e+20, 'RMSE': 16539961471.74307, 'TEST_R2': 0.7932365462846811}
-27: {'params': {'copy_X': True, 'fit_intercept': False}, 'TRAIN_R2': 1.0, 'MAE': 3.069203941109254, 'MSE': 21.196879534754896, 'RMSE': 4.604006899946491, 'TEST_R2': 1.0}
-28: {'params': {'copy_X': True, 'fit_intercept': False}, 'TRAIN_R2': 0.0, 'MAE': 1.6675539866295483e-05, 'MSE': 3.014455714182393e-10, 'RMSE': 1.736218797900309e-05, 'TEST_R2': 0.0}
-29: {'params': {'copy_X': True, 'fit_intercept': False}, 'TRAIN_R2': 0.1960594091400325, 'MAE': 16950142384.222347, 'MSE': 3.98378412021738e+20, 'RMSE': 19959419130.36895, 'TEST_R2': 0.2076848746152542}
-30: {'params': {'copy_X': True, 'fit_intercept': False}, 'TRAIN_R2': 0.9999999999999937, 'MAE': 3338.9570709164886, 'MSE': 20013349.673631623, 'RMSE': 4473.628244907217, 'TEST_R2': 0.9999999999999934}
-31: {'params': {'copy_X': True, 'fit_intercept': False}, 'TRAIN_R2': 0.6676554608778316, 'MAE': 23634264077.775845, 'MSE': 1.2198834337357216e+21, 'RMSE': 34926829712.06693, 'TEST_R2': -0.46489435975506477}
-32: {'params': {'copy_X': True, 'fit_intercept': False}, 'TRAIN_R2': 0.0, 'MAE': 5.6621417328340924e-05, 'MSE': 3.256760675099739e-09, 'RMSE': 5.706803549360832e-05, 'TEST_R2': 0.0}
-33: {'params': {'copy_X': True, 'fit_intercept': False}, 'TRAIN_R2': 1.0, 'MAE': 0.002548909920356232, 'MSE': 9.535827892132009e-06, 'RMSE': 0.0030880135835407215, 'TEST_R2': 1.0}
-34: {'params': {'copy_X': True, 'fit_intercept': False}, 'TRAIN_R2': 0.18537386545441004, 'MAE': 25177629514.96553, 'MSE': 7.867444419562958e+20, 'RMSE': 28048965078.16814, 'TEST_R2': 0.179612970726177}
-35: {'params': {'copy_X': True, 'fit_intercept': False}, 'TRAIN_R2': 1.0, 'MAE': 0.10129839809366298, 'MSE': 0.01631456886918992, 'RMSE': 0.12772849669979647, 'TEST_R2': 1.0}
-36: {'params': {'copy_X': True, 'fit_intercept': False}, 'TRAIN_R2': 0.0, 'MAE': 1.7922081059975276e-09, 'MSE': 3.2169389707842745e-18, 'RMSE': 1.7935827192477837e-09, 'TEST_R2': 0.0}
-37: {'params': {'copy_X': True, 'fit_intercept': False}, 'TRAIN_R2': 0.0, 'MAE': 1338.302465102456, 'MSE': 1970158814.3543847, 'RMSE': 44386.471073451925, 'TEST_R2': 0.0}
-38: {'params': {'copy_X': True, 'fit_intercept': False}, 'TRAIN_R2': 0.8915143550281424, 'MAE': 10304343954.47527, 'MSE': 2.9443804472346775e+20, 'RMSE': 17159197088.543152, 'TEST_R2': 0.8933384247271817}
-39: {'params': {'copy_X': True, 'fit_intercept': False}, 'TRAIN_R2': 0.12465948143830341, 'MAE': 37073627708.13285, 'MSE': 1.7023910850718954e+21, 'RMSE': 41260042233.03577, 'TEST_R2': 0.12277155417899654}
-40: {'params': {'copy_X': True, 'fit_intercept': False}, 'TRAIN_R2': 0.9999999999999997, 'MAE': 480.7538924028883, 'MSE': 369309.61336449155, 'RMSE': 607.7084937406187, 'TEST_R2': 0.9999999999999997}
-41: {'params': {'copy_X': True, 'fit_intercept': False}, 'TRAIN_R2': 0.0, 'MAE': 0.00024077384702620968, 'MSE': 5.812804785466963e-08, 'RMSE': 0.00024109758989809422, 'TEST_R2': 0.0}
-42: {'params': {'copy_X': True, 'fit_intercept': False}, 'TRAIN_R2': 1.0, 'MAE': 0.004750630933637013, 'MSE': 2.8494158284662218e-05, 'RMSE': 0.005337991971206234, 'TEST_R2': 1.0}
-43: {'params': {'copy_X': True, 'fit_intercept': False}, 'TRAIN_R2': 1.0, 'MAE': 2.0628091518123052e-10, 'MSE': 4.4313692576683764e-20, 'RMSE': 2.1050817698294706e-10, 'TEST_R2': 1.0}
-44: {'params': {'copy_X': True, 'fit_intercept': False}, 'TRAIN_R2': 1.0, 'MAE': 0.0007936815774672081, 'MSE': 6.58065349996477e-07, 'RMSE': 0.000811212271847805, 'TEST_R2': 1.0}
-45: {'params': {'copy_X': True, 'fit_intercept': False}, 'TRAIN_R2': 0.0, 'MAE': 8.660194658416082e-05, 'MSE': 7.518226602854573e-09, 'RMSE': 8.670770786299551e-05, 'TEST_R2': 0.0}
-46: {'params': {'copy_X': True, 'fit_intercept': False}, 'TRAIN_R2': 0.0, 'MAE': 1.7394665684523074e-10, 'MSE': 3.7676139786173005e-20, 'RMSE': 1.941034254879934e-10, 'TEST_R2': 0.0}
-47: {'params': {'copy_X': True, 'fit_intercept': False}, 'TRAIN_R2': 0.5319741679242469, 'MAE': 30029439538.965496, 'MSE': 1.5605663125330005e+21, 'RMSE': 39504003753.202034, 'TEST_R2': 0.5180699073546724}
-48: {'params': {'copy_X': True, 'fit_intercept': False}, 'TRAIN_R2': 0.17538024720403111, 'MAE': 9654174569.48896, 'MSE': 1.782851130058951e+20, 'RMSE': 13352344850.470837, 'TEST_R2': 0.17336504137478925}
-49: {'params': {'copy_X': True, 'fit_intercept': False}, 'TRAIN_R2': 0.5520673270191232, 'MAE': 9862797199.261654, 'MSE': 1.5872554588625656e+20, 'RMSE': 12598632699.077173, 'TEST_R2': 0.559242162129621}
-50: {'params': {'copy_X': True, 'fit_intercept': False}, 'TRAIN_R2': 1.0, 'MAE': 0.006045892040802402, 'MSE': 3.665367458585048e-05, 'RMSE': 0.006054227827382323, 'TEST_R2': 1.0}
-51: {'params': {'copy_X': True, 'fit_intercept': False}, 'TRAIN_R2': 0.7026701469957404, 'MAE': 26862740799.703705, 'MSE': 9.03144134948043e+20, 'RMSE': 30052356562.307106, 'TEST_R2': 0.708800214186565}
-52: {'params': {'copy_X': True, 'fit_intercept': False}, 'TRAIN_R2': 0.0, 'MAE': 4.260604445998733e-05, 'MSE': 1.8259212280296394e-09, 'RMSE': 4.2730799524811604e-05, 'TEST_R2': 0.0}
-53: {'params': {'copy_X': True, 'fit_intercept': False}, 'TRAIN_R2': 0.9946953331375703, 'MAE': 3888313145.3104463, 'MSE': 4.309829144118823e+19, 'RMSE': 6564928898.410724, 'TEST_R2': 0.9947371149451277}
-54: {'params': {'copy_X': True, 'fit_intercept': False}, 'TRAIN_R2': 0.5405581825227448, 'MAE': 26891245550.28002, 'MSE': 1.351804648723941e+21, 'RMSE': 36766896098.58223, 'TEST_R2': 0.5224919389374726}
-55: {'params': {'copy_X': True, 'fit_intercept': False}, 'TRAIN_R2': 0.0, 'MAE': 2.7498839806546182e-11, 'MSE': 1.1506568897443528e-21, 'RMSE': 3.392133384382685e-11, 'TEST_R2': 0.0}
-56: {'params': {'copy_X': True, 'fit_intercept': False}, 'TRAIN_R2': 0.0, 'MAE': 5.682427380841988e-06, 'MSE': 3.6905153952059945e-11, 'RMSE': 6.074961230498508e-06, 'TEST_R2': 0.0}
-57: {'params': {'copy_X': True, 'fit_intercept': False}, 'TRAIN_R2': 0.12204849793403993, 'MAE': 66763233642.487625, 'MSE': 8.469570888192147e+21, 'RMSE': 92030271585.9958, 'TEST_R2': 0.12506199778493587}
-58: {'params': {'copy_X': True, 'fit_intercept': False}, 'TRAIN_R2': 0.0, 'MAE': 3.595300045114524e-10, 'MSE': 1.3591864375224481e-19, 'RMSE': 3.686714577401468e-10, 'TEST_R2': 0.0}
-59: {'params': {'copy_X': True, 'fit_intercept': False}, 'TRAIN_R2': 1.0, 'MAE': 7.72510564673038, 'MSE': 72.51849920142243, 'RMSE': 8.515779424187926, 'TEST_R2': 1.0}
-60: {'params': {'copy_X': True, 'fit_intercept': False}, 'TRAIN_R2': 0.0, 'MAE': 9.034637712005876e-06, 'MSE': 1.1041421148703139e-10, 'RMSE': 1.0507816685069806e-05, 'TEST_R2': 0.0}
-61: {'params': {'copy_X': True, 'fit_intercept': False}, 'TRAIN_R2': 0.5293379728891443, 'MAE': 8919070516.576204, 'MSE': 1.3570744192243499e+20, 'RMSE': 11649353712.650114, 'TEST_R2': 0.49958045758656144}
-62: {'params': {'copy_X': True, 'fit_intercept': False}, 'TRAIN_R2': 0.7927513155967583, 'MAE': 19071799633.277172, 'MSE': 6.089045193442294e+20, 'RMSE': 24675990746.963524, 'TEST_R2': 0.7978244280720475}
-63: {'params': {'copy_X': True, 'fit_intercept': False}, 'TRAIN_R2': 0.3618844401642687, 'MAE': 66581628213.42293, 'MSE': 6.388685309319076e+21, 'RMSE': 79929251900.15903, 'TEST_R2': 0.36221405701894116}
-64: {'params': {'copy_X': True, 'fit_intercept': False}, 'TRAIN_R2': 1.0, 'MAE': 0.00025991849384523856, 'MSE': 8.251197516281161e-08, 'RMSE': 0.00028724897765320523, 'TEST_R2': 1.0}
-65: {'params': {'copy_X': True, 'fit_intercept': False}, 'TRAIN_R2': 0.0, 'MAE': 1.568264431423611e-05, 'MSE': 2.473825588822365e-10, 'RMSE': 1.5728399755926745e-05, 'TEST_R2': 0.0}
-66: {'params': {'copy_X': True, 'fit_intercept': False}, 'TRAIN_R2': 0.0, 'MAE': 0.00046641470449146577, 'MSE': 2.1842144627649138e-07, 'RMSE': 0.00046735580265627535, 'TEST_R2': 0.0}
-67: {'params': {'copy_X': True, 'fit_intercept': False}, 'TRAIN_R2': 1.0, 'MAE': 3.142003703305102e-05, 'MSE': 1.099657690317744e-09, 'RMSE': 3.316108698938779e-05, 'TEST_R2': 1.0}
-68: {'params': {'copy_X': True, 'fit_intercept': False}, 'TRAIN_R2': 0.6117162964679257, 'MAE': 27244826418.37049, 'MSE': 1.1429014505789197e+21, 'RMSE': 33806825502.831818, 'TEST_R2': 0.614772591876533}
-69: {'params': {'copy_X': True, 'fit_intercept': False}, 'TRAIN_R2': 0.0, 'MAE': 9.1552734375e-06, 'MSE': 1.0477378964424134e-10, 'RMSE': 1.0235906879424086e-05, 'TEST_R2': 0.0}
-70: {'params': {'copy_X': True, 'fit_intercept': False}, 'TRAIN_R2': 1.0, 'MAE': 0.0005609311327236543, 'MSE': 3.3358223538583114e-07, 'RMSE': 0.0005775657844660045, 'TEST_R2': 1.0}
-71: {'params': {'copy_X': True, 'fit_intercept': False}, 'TRAIN_R2': 0.0, 'MAE': 7.317365503044632e-11, 'MSE': 5.395961412462989e-21, 'RMSE': 7.345720803612801e-11, 'TEST_R2': 0.0}
-72: {'params': {'copy_X': True, 'fit_intercept': False}, 'TRAIN_R2': 0.0, 'MAE': 4.76837158203125e-07, 'MSE': 2.2737367544323206e-13, 'RMSE': 4.76837158203125e-07, 'TEST_R2': 0.0}
-73: {'params': {'copy_X': True, 'fit_intercept': False}, 'TRAIN_R2': 1.0, 'MAE': 32713128.47784893, 'MSE': 3.997540624476804e+18, 'RMSE': 1999385061.5818865, 'TEST_R2': 0.9956403539561341}
-74: {'params': {'copy_X': True, 'fit_intercept': False}, 'TRAIN_R2': 0.522679001550399, 'MAE': 26194116175.358727, 'MSE': 1.0581880569453302e+21, 'RMSE': 32529802596.162956, 'TEST_R2': 0.5176282778353285}
-75: {'params': {'copy_X': True, 'fit_intercept': False}, 'TRAIN_R2': 1.0, 'MAE': 0.00043637965423465243, 'MSE': 1.9229449468158423e-07, 'RMSE': 0.0004385139617863771, 'TEST_R2': 1.0}
-76: {'params': {'copy_X': True, 'fit_intercept': False}, 'TRAIN_R2': 1.0, 'MAE': 0.0008609255963499296, 'MSE': 1.1687875680664456e-06, 'RMSE': 0.0010811047905112832, 'TEST_R2': 1.0}
-77: {'params': {'copy_X': True, 'fit_intercept': False}, 'TRAIN_R2': 0.5819762841239816, 'MAE': 47419490642.21298, 'MSE': 3.5989949779306537e+21, 'RMSE': 59991624231.476295, 'TEST_R2': 0.5812881079468241}
-78: {'params': {'copy_X': True, 'fit_intercept': False}, 'TRAIN_R2': 0.0, 'MAE': 6.008976982313e-11, 'MSE': 3.728147380620071e-21, 'RMSE': 6.105855698114779e-11, 'TEST_R2': 0.0}
-79: {'params': {'copy_X': True, 'fit_intercept': False}, 'TRAIN_R2': 0.6366546906604018, 'MAE': 15687613838.773045, 'MSE': 3.3393566337164463e+20, 'RMSE': 18273906625.887215, 'TEST_R2': 0.6369371458240864}
-80: {'params': {'copy_X': True, 'fit_intercept': False}, 'TRAIN_R2': 0.14659770091001456, 'MAE': 71513952005.15707, 'MSE': 9.554663762947752e+21, 'RMSE': 97747960403.00664, 'TEST_R2': 0.15057044067356085}
-81: {'params': {'copy_X': True, 'fit_intercept': False}, 'TRAIN_R2': 0.8658787648536004, 'MAE': 20967835021.620747, 'MSE': 6.107594082626022e+20, 'RMSE': 24713547059.50973, 'TEST_R2': 0.8672376088787596}
-82: {'params': {'copy_X': True, 'fit_intercept': False}, 'TRAIN_R2': 0.44781879408207337, 'MAE': 31675104106.706436, 'MSE': 1.4676343389110917e+21, 'RMSE': 38309715985.77953, 'TEST_R2': 0.4432442757689484}
-83: {'params': {'copy_X': True, 'fit_intercept': False}, 'TRAIN_R2': 0.0, 'MAE': 1.1627932628953314e-05, 'MSE': 1.3798020824969534e-10, 'RMSE': 1.174649770142979e-05, 'TEST_R2': 0.0}
-84: {'params': {'copy_X': True, 'fit_intercept': False}, 'TRAIN_R2': 0.1515140538403541, 'MAE': 45612587682.330124, 'MSE': 2.5493797469273116e+21, 'RMSE': 50491382897.75109, 'TEST_R2': 0.15194796743684624}
-85: {'params': {'copy_X': True, 'fit_intercept': False}, 'TRAIN_R2': 0.0, 'MAE': 0.00016829812315088757, 'MSE': 2.8427381663632817e-08, 'RMSE': 0.00016860421603160703, 'TEST_R2': 0.0}
-86: {'params': {'copy_X': True, 'fit_intercept': False}, 'TRAIN_R2': 0.9820837327078636, 'MAE': 1753270135.7322674, 'MSE': 1.2024425765982626e+19, 'RMSE': 3467625378.5526814, 'TEST_R2': 0.9820251496532598}
-87: {'params': {'copy_X': True, 'fit_intercept': False}, 'TRAIN_R2': 0.99999999999986, 'MAE': 9440.583734746891, 'MSE': 92034867.38749133, 'RMSE': 9593.480462662721, 'TEST_R2': 0.9999999999998613}
-88: {'params': {'copy_X': True, 'fit_intercept': False}, 'TRAIN_R2': 0.0, 'MAE': 0.00011574525058880577, 'MSE': 1.397138695268956e-08, 'RMSE': 0.00011820062162564781, 'TEST_R2': 0.0}
-89: {'params': {'copy_X': True, 'fit_intercept': False}, 'TRAIN_R2': 1.0, 'MAE': 0.0007604542988188126, 'MSE': 5.911062057135521e-07, 'RMSE': 0.000768834316165422, 'TEST_R2': 1.0}
-90: {'params': {'copy_X': True, 'fit_intercept': False}, 'TRAIN_R2': 0.0, 'MAE': 0.003617285558837603, 'MSE': 1.3096989719339759e-05, 'RMSE': 0.003618976335835834, 'TEST_R2': 0.0}
-SELECTOR_NAME: Theme name
-SELECTOR_MODEL: NeuralNetworkRegressionModel
+SELECTOR_MODEL: RidgeLinearRegressionModel
+0: {'params': {'alpha': 100.0, 'copy_X': True, 'fit_intercept': True, 'solver': 'cholesky'}, 'TRAIN_R2': 0.9984690458728503, 'MAE': 1063407391.4252506, 'MSE': 2.1844833268083028e+18, 'RMSE': 1477999772.2626019, 'TEST_R2': 0.9984212124950832}
+1: {'params': {'alpha': 100.0, 'copy_X': True, 'fit_intercept': True, 'solver': 'cholesky'}, 'TRAIN_R2': 0.9999992463534886, 'MAE': 49.629760401064935, 'MSE': 4327.313157385342, 'RMSE': 65.78231644891613, 'TEST_R2': 0.999999171843702}
+2: {'params': {'alpha': 100.0, 'copy_X': True, 'fit_intercept': True, 'solver': 'cholesky'}, 'TRAIN_R2': 0.6076347773506336, 'MAE': 36451956347.473206, 'MSE': 2.3426024909325468e+21, 'RMSE': 48400438953.92424, 'TEST_R2': 0.6007080909609848}
+3: {'params': {'alpha': 100.0, 'copy_X': True, 'fit_intercept': True, 'solver': 'cholesky'}, 'TRAIN_R2': 0.7335647052863715, 'MAE': 19510792161.479225, 'MSE': 7.195607175581155e+20, 'RMSE': 26824628936.07506, 'TEST_R2': 0.7322016851798597}
+4: {'params': {'alpha': 100.0, 'copy_X': True, 'fit_intercept': True, 'solver': 'cholesky'}, 'TRAIN_R2': 0.6972248228704907, 'MAE': 12351936703.44157, 'MSE': 2.4784712491801733e+20, 'RMSE': 15743161211.078838, 'TEST_R2': 0.684194899669295}
+5: {'params': {'alpha': 100.0, 'copy_X': True, 'fit_intercept': True, 'solver': 'cholesky'}, 'TRAIN_R2': 1.0, 'MAE': 0.0, 'MSE': 0.0, 'RMSE': 0.0, 'TEST_R2': 1.0}
+6: {'params': {'alpha': 100.0, 'copy_X': True, 'fit_intercept': True, 'solver': 'cholesky'}, 'TRAIN_R2': 0.9999999997335297, 'MAE': 119095.67413141328, 'MSE': 21738141670.45613, 'RMSE': 147438.60305380044, 'TEST_R2': 0.9999999997336225}
+7: {'params': {'alpha': 100.0, 'copy_X': True, 'fit_intercept': True, 'solver': 'cholesky'}, 'TRAIN_R2': 1.0, 'MAE': 0.0, 'MSE': 0.0, 'RMSE': 0.0, 'TEST_R2': 1.0}
+8: {'params': {'alpha': 100.0, 'copy_X': True, 'fit_intercept': True, 'solver': 'cholesky'}, 'TRAIN_R2': 0.9149326594251115, 'MAE': 2501596025.32722, 'MSE': 1.2055434640939565e+19, 'RMSE': 3472093697.027712, 'TEST_R2': 0.9158021870090247}
+9: {'params': {'alpha': 100.0, 'copy_X': True, 'fit_intercept': True, 'solver': 'cholesky'}, 'TRAIN_R2': 1.0, 'MAE': 0.00011458078268221467, 'MSE': 1.3424731275515047e-08, 'RMSE': 0.00011586514262501491, 'TEST_R2': 1.0}
+10: {'params': {'alpha': 100.0, 'copy_X': True, 'fit_intercept': True, 'solver': 'cholesky'}, 'TRAIN_R2': 0.9999999987435592, 'MAE': 102757.79440658704, 'MSE': 10627793388.134829, 'RMSE': 103091.18967271077, 'TEST_R2': 0.9999999987367717}
+11: {'params': {'alpha': 100.0, 'copy_X': True, 'fit_intercept': True, 'solver': 'cholesky'}, 'TRAIN_R2': 1.0, 'MAE': 0.0, 'MSE': 0.0, 'RMSE': 0.0, 'TEST_R2': 1.0}
+12: {'params': {'alpha': 100.0, 'copy_X': True, 'fit_intercept': True, 'solver': 'cholesky'}, 'TRAIN_R2': 0.8841753838638917, 'MAE': 2563025381.9867206, 'MSE': 1.495995643561021e+19, 'RMSE': 3867810289.5062227, 'TEST_R2': 0.8922800141578096}
+13: {'params': {'alpha': 100.0, 'copy_X': True, 'fit_intercept': True, 'solver': 'cholesky'}, 'TRAIN_R2': 1.0, 'MAE': 0.0, 'MSE': 0.0, 'RMSE': 0.0, 'TEST_R2': 1.0}
+14: {'params': {'alpha': 100.0, 'copy_X': True, 'fit_intercept': True, 'solver': 'cholesky'}, 'TRAIN_R2': 0.9111731729549848, 'MAE': 4490885833.832645, 'MSE': 3.3899006642174034e+19, 'RMSE': 5822285345.306775, 'TEST_R2': 0.9099027769106145}
+15: {'params': {'alpha': 100.0, 'copy_X': True, 'fit_intercept': True, 'solver': 'cholesky'}, 'TRAIN_R2': 0.5363124719691457, 'MAE': 4075824847.5743084, 'MSE': 2.811833224535971e+19, 'RMSE': 5302672179.699563, 'TEST_R2': 0.5337450906946004}
+16: {'params': {'alpha': 100.0, 'copy_X': True, 'fit_intercept': True, 'solver': 'cholesky'}, 'TRAIN_R2': 0.7297465585301379, 'MAE': 18279942054.648045, 'MSE': 7.137575179738782e+20, 'RMSE': 26716240715.599907, 'TEST_R2': 0.7219735220075874}
+17: {'params': {'alpha': 100.0, 'copy_X': True, 'fit_intercept': True, 'solver': 'cholesky'}, 'TRAIN_R2': 0.9975571668890606, 'MAE': 1433688845.2005713, 'MSE': 6.733458653446939e+18, 'RMSE': 2594890875.0556235, 'TEST_R2': 0.9974822155529687}
+18: {'params': {'alpha': 100.0, 'copy_X': True, 'fit_intercept': True, 'solver': 'cholesky'}, 'TRAIN_R2': 1.0, 'MAE': 0.0, 'MSE': 0.0, 'RMSE': 0.0, 'TEST_R2': 1.0}
+19: {'params': {'alpha': 100.0, 'copy_X': True, 'fit_intercept': True, 'solver': 'cholesky'}, 'TRAIN_R2': 0.3680052340079184, 'MAE': 23340115579.703407, 'MSE': 9.228620746510947e+20, 'RMSE': 30378645043.04125, 'TEST_R2': 0.36703717644318057}
+20: {'params': {'alpha': 100.0, 'copy_X': True, 'fit_intercept': True, 'solver': 'cholesky'}, 'TRAIN_R2': 0.7276993554912192, 'MAE': 15227096298.330791, 'MSE': 7.056814244277205e+20, 'RMSE': 26564664959.824368, 'TEST_R2': 0.7215749883477949}
+21: {'params': {'alpha': 100.0, 'copy_X': True, 'fit_intercept': True, 'solver': 'cholesky'}, 'TRAIN_R2': 0.04237435565797065, 'MAE': 35663230714.00301, 'MSE': 2.8957542730759867e+21, 'RMSE': 53812213047.56, 'TEST_R2': 0.043697621956086174}
+22: {'params': {'alpha': 100.0, 'copy_X': True, 'fit_intercept': True, 'solver': 'cholesky'}, 'TRAIN_R2': 0.5109155494694395, 'MAE': 53427987281.23255, 'MSE': 4.140456413272795e+21, 'RMSE': 64346378400.59683, 'TEST_R2': 0.5116251346216825}
+23: {'params': {'alpha': 100.0, 'copy_X': True, 'fit_intercept': True, 'solver': 'cholesky'}, 'TRAIN_R2': 1.0, 'MAE': 0.0, 'MSE': 0.0, 'RMSE': 0.0, 'TEST_R2': 1.0}
+24: {'params': {'alpha': 100.0, 'copy_X': True, 'fit_intercept': True, 'solver': 'cholesky'}, 'TRAIN_R2': 1.0, 'MAE': 0.0, 'MSE': 0.0, 'RMSE': 0.0, 'TEST_R2': 1.0}
+25: {'params': {'alpha': 100.0, 'copy_X': True, 'fit_intercept': True, 'solver': 'cholesky'}, 'TRAIN_R2': 0.9999999994664555, 'MAE': 204513.55122391094, 'MSE': 42348676830.15529, 'RMSE': 205787.94141094683, 'TEST_R2': 0.9999999994641259}
+26: {'params': {'alpha': 100.0, 'copy_X': True, 'fit_intercept': True, 'solver': 'cholesky'}, 'TRAIN_R2': 0.7678927927965581, 'MAE': 15340276001.390465, 'MSE': 2.892925317429272e+20, 'RMSE': 17008601698.638462, 'TEST_R2': 0.7678673460806262}
+27: {'params': {'alpha': 100.0, 'copy_X': True, 'fit_intercept': True, 'solver': 'cholesky'}, 'TRAIN_R2': 0.9999307089936491, 'MAE': 74580671.54657553, 'MSE': 1.0382315516210168e+16, 'RMSE': 101893648.06606036, 'TEST_R2': 0.9999303862995996}
+28: {'params': {'alpha': 100.0, 'copy_X': True, 'fit_intercept': True, 'solver': 'cholesky'}, 'TRAIN_R2': 1.0, 'MAE': 0.0, 'MSE': 0.0, 'RMSE': 0.0, 'TEST_R2': 1.0}
+29: {'params': {'alpha': 100.0, 'copy_X': True, 'fit_intercept': True, 'solver': 'cholesky'}, 'TRAIN_R2': 0.20488330918465403, 'MAE': 14953576339.922316, 'MSE': 3.44769473737564e+20, 'RMSE': 18567969025.651783, 'TEST_R2': 0.232625120746504}
+30: {'params': {'alpha': 100.0, 'copy_X': True, 'fit_intercept': True, 'solver': 'cholesky'}, 'TRAIN_R2': 0.999999999949064, 'MAE': 351183.38303291984, 'MSE': 163838306219.72244, 'RMSE': 404769.44822914, 'TEST_R2': 0.9999999999513957}
+31: {'params': {'alpha': 100.0, 'copy_X': True, 'fit_intercept': True, 'solver': 'cholesky'}, 'TRAIN_R2': 0.1684421207977046, 'MAE': 48859187496.00448, 'MSE': 3.237934771286673e+21, 'RMSE': 56902853806.17279, 'TEST_R2': -0.6448707371104232}
+32: {'params': {'alpha': 100.0, 'copy_X': True, 'fit_intercept': True, 'solver': 'cholesky'}, 'TRAIN_R2': 1.0, 'MAE': 0.0, 'MSE': 0.0, 'RMSE': 0.0, 'TEST_R2': 1.0}
+33: {'params': {'alpha': 100.0, 'copy_X': True, 'fit_intercept': True, 'solver': 'cholesky'}, 'TRAIN_R2': 0.9991616173907211, 'MAE': 6765728546.796982, 'MSE': 6.284826322225672e+19, 'RMSE': 7927689652.241486, 'TEST_R2': 0.999182404931793}
+34: {'params': {'alpha': 100.0, 'copy_X': True, 'fit_intercept': True, 'solver': 'cholesky'}, 'TRAIN_R2': 0.14415779697515618, 'MAE': 25635939974.48446, 'MSE': 8.022982875746849e+20, 'RMSE': 28324870477.63299, 'TEST_R2': 0.1488580054678279}
+35: {'params': {'alpha': 100.0, 'copy_X': True, 'fit_intercept': True, 'solver': 'cholesky'}, 'TRAIN_R2': 0.9999999999998496, 'MAE': 14477.66966725225, 'MSE': 277963662.37238854, 'RMSE': 16672.242271883784, 'TEST_R2': 0.9999999999998453}
+36: {'params': {'alpha': 100.0, 'copy_X': True, 'fit_intercept': True, 'solver': 'cholesky'}, 'TRAIN_R2': 1.0, 'MAE': 0.0, 'MSE': 0.0, 'RMSE': 0.0, 'TEST_R2': 1.0}
+37: {'params': {'alpha': 100.0, 'copy_X': True, 'fit_intercept': True, 'solver': 'cholesky'}, 'TRAIN_R2': 1.0, 'MAE': 0.0, 'MSE': 0.0, 'RMSE': 0.0, 'TEST_R2': 1.0}
+38: {'params': {'alpha': 100.0, 'copy_X': True, 'fit_intercept': True, 'solver': 'cholesky'}, 'TRAIN_R2': 0.8704628812637574, 'MAE': 14119943790.68587, 'MSE': 4.054494514326641e+20, 'RMSE': 20135775411.75567, 'TEST_R2': 0.8684737709996383}
+39: {'params': {'alpha': 100.0, 'copy_X': True, 'fit_intercept': True, 'solver': 'cholesky'}, 'TRAIN_R2': 0.04296439854119383, 'MAE': 34624451884.78954, 'MSE': 1.5356367664557014e+21, 'RMSE': 39187201564.4866, 'TEST_R2': 0.04682986482814433}
+40: {'params': {'alpha': 100.0, 'copy_X': True, 'fit_intercept': True, 'solver': 'cholesky'}, 'TRAIN_R2': 0.9999999999423279, 'MAE': 188769.84179599216, 'MSE': 75716489406.0829, 'RMSE': 275166.2940951942, 'TEST_R2': 0.9999999999431846}
+41: {'params': {'alpha': 100.0, 'copy_X': True, 'fit_intercept': True, 'solver': 'cholesky'}, 'TRAIN_R2': 1.0, 'MAE': 0.0, 'MSE': 0.0, 'RMSE': 0.0, 'TEST_R2': 1.0}
+42: {'params': {'alpha': 100.0, 'copy_X': True, 'fit_intercept': True, 'solver': 'cholesky'}, 'TRAIN_R2': 0.9999999999691183, 'MAE': 1135529.7361190682, 'MSE': 1405205206331.0708, 'RMSE': 1185413.5170188802, 'TEST_R2': 0.9999999999688715}
+43: {'params': {'alpha': 100.0, 'copy_X': True, 'fit_intercept': True, 'solver': 'cholesky'}, 'TRAIN_R2': 0.9999999999987759, 'MAE': 0.057717899213596935, 'MSE': 0.003499651732845571, 'RMSE': 0.05915785436309849, 'TEST_R2': 0.9999999999987772}
+44: {'params': {'alpha': 100.0, 'copy_X': True, 'fit_intercept': True, 'solver': 'cholesky'}, 'TRAIN_R2': 0.9999999951509195, 'MAE': 1980757.2312490381, 'MSE': 7048045002761.489, 'RMSE': 2654815.4366662647, 'TEST_R2': 0.9999999948718842}
+45: {'params': {'alpha': 100.0, 'copy_X': True, 'fit_intercept': True, 'solver': 'cholesky'}, 'TRAIN_R2': 1.0, 'MAE': 0.0, 'MSE': 0.0, 'RMSE': 0.0, 'TEST_R2': 1.0}
+46: {'params': {'alpha': 100.0, 'copy_X': True, 'fit_intercept': True, 'solver': 'cholesky'}, 'TRAIN_R2': 1.0, 'MAE': 0.0, 'MSE': 0.0, 'RMSE': 0.0, 'TEST_R2': 1.0}
+47: {'params': {'alpha': 100.0, 'copy_X': True, 'fit_intercept': True, 'solver': 'cholesky'}, 'TRAIN_R2': 0.5360561050027168, 'MAE': 30564987524.085323, 'MSE': 1.591919073377375e+21, 'RMSE': 39898860552.36885, 'TEST_R2': 0.5292499370722317}
+48: {'params': {'alpha': 100.0, 'copy_X': True, 'fit_intercept': True, 'solver': 'cholesky'}, 'TRAIN_R2': 0.11542514615865784, 'MAE': 10606926563.767132, 'MSE': 1.9537314178201508e+20, 'RMSE': 13977594277.343119, 'TEST_R2': 0.09586496153711443}
+49: {'params': {'alpha': 100.0, 'copy_X': True, 'fit_intercept': True, 'solver': 'cholesky'}, 'TRAIN_R2': 0.5520971714657574, 'MAE': 12002653475.562435, 'MSE': 2.0167534116697784e+20, 'RMSE': 14201244352.766338, 'TEST_R2': 0.5480454055010683}
+50: {'params': {'alpha': 100.0, 'copy_X': True, 'fit_intercept': True, 'solver': 'cholesky'}, 'TRAIN_R2': 0.9999899540265919, 'MAE': 11201964.646802306, 'MSE': 129395087203851.61, 'RMSE': 11375196.139137628, 'TEST_R2': 0.9999897075290922}
+51: {'params': {'alpha': 100.0, 'copy_X': True, 'fit_intercept': True, 'solver': 'cholesky'}, 'TRAIN_R2': 0.7102497912995309, 'MAE': 27791230203.810623, 'MSE': 9.332879986691429e+20, 'RMSE': 30549762661.42084, 'TEST_R2': 0.7037863871206865}
+52: {'params': {'alpha': 100.0, 'copy_X': True, 'fit_intercept': True, 'solver': 'cholesky'}, 'TRAIN_R2': 1.0, 'MAE': 0.0, 'MSE': 0.0, 'RMSE': 0.0, 'TEST_R2': 1.0}
+53: {'params': {'alpha': 100.0, 'copy_X': True, 'fit_intercept': True, 'solver': 'cholesky'}, 'TRAIN_R2': 0.9807087707302172, 'MAE': 8425179864.65786, 'MSE': 1.2117652166203146e+20, 'RMSE': 11008020787.681656, 'TEST_R2': 0.980731959053027}
+54: {'params': {'alpha': 100.0, 'copy_X': True, 'fit_intercept': True, 'solver': 'cholesky'}, 'TRAIN_R2': 0.6287531022122753, 'MAE': 25490386099.895985, 'MSE': 1.187131995406226e+21, 'RMSE': 34454781894.62569, 'TEST_R2': 0.6095685385910267}
+55: {'params': {'alpha': 100.0, 'copy_X': True, 'fit_intercept': True, 'solver': 'cholesky'}, 'TRAIN_R2': 1.0, 'MAE': 0.0, 'MSE': 0.0, 'RMSE': 0.0, 'TEST_R2': 1.0}
+56: {'params': {'alpha': 100.0, 'copy_X': True, 'fit_intercept': True, 'solver': 'cholesky'}, 'TRAIN_R2': 1.0, 'MAE': 0.0, 'MSE': 0.0, 'RMSE': 0.0, 'TEST_R2': 1.0}
+57: {'params': {'alpha': 100.0, 'copy_X': True, 'fit_intercept': True, 'solver': 'cholesky'}, 'TRAIN_R2': 0.12616494083118734, 'MAE': 60379141448.88589, 'MSE': 7.558966669277748e+21, 'RMSE': 86942318057.88104, 'TEST_R2': 0.1291194437224885}
+58: {'params': {'alpha': 100.0, 'copy_X': True, 'fit_intercept': True, 'solver': 'cholesky'}, 'TRAIN_R2': 1.0, 'MAE': 0.0, 'MSE': 0.0, 'RMSE': 0.0, 'TEST_R2': 1.0}
+59: {'params': {'alpha': 100.0, 'copy_X': True, 'fit_intercept': True, 'solver': 'cholesky'}, 'TRAIN_R2': 0.9360040794936331, 'MAE': 12602500028.343374, 'MSE': 2.2761546534055087e+20, 'RMSE': 15086930282.219471, 'TEST_R2': 0.9376387004873943}
+60: {'params': {'alpha': 100.0, 'copy_X': True, 'fit_intercept': True, 'solver': 'cholesky'}, 'TRAIN_R2': 1.0, 'MAE': 0.0, 'MSE': 0.0, 'RMSE': 0.0, 'TEST_R2': 1.0}
+61: {'params': {'alpha': 100.0, 'copy_X': True, 'fit_intercept': True, 'solver': 'cholesky'}, 'TRAIN_R2': 0.41068264300548696, 'MAE': 12284259442.597626, 'MSE': 1.903472077900928e+20, 'RMSE': 13796637553.769861, 'TEST_R2': 0.39779145790270054}
+62: {'params': {'alpha': 100.0, 'copy_X': True, 'fit_intercept': True, 'solver': 'cholesky'}, 'TRAIN_R2': 0.7585867997088269, 'MAE': 19143031099.553303, 'MSE': 6.182721674190733e+20, 'RMSE': 24865079276.34805, 'TEST_R2': 0.7574881199510413}
+63: {'params': {'alpha': 100.0, 'copy_X': True, 'fit_intercept': True, 'solver': 'cholesky'}, 'TRAIN_R2': 0.2837958395068263, 'MAE': 68273589907.01736, 'MSE': 6.313686349366254e+21, 'RMSE': 79458708455.18604, 'TEST_R2': 0.2808236073088469}
+64: {'params': {'alpha': 100.0, 'copy_X': True, 'fit_intercept': True, 'solver': 'cholesky'}, 'TRAIN_R2': 0.9999999999759885, 'MAE': 54413.14618323673, 'MSE': 3186224092.0737643, 'RMSE': 56446.64819166648, 'TEST_R2': 0.9999999999760871}
+65: {'params': {'alpha': 100.0, 'copy_X': True, 'fit_intercept': True, 'solver': 'cholesky'}, 'TRAIN_R2': 1.0, 'MAE': 0.0, 'MSE': 0.0, 'RMSE': 0.0, 'TEST_R2': 1.0}
+66: {'params': {'alpha': 100.0, 'copy_X': True, 'fit_intercept': True, 'solver': 'cholesky'}, 'TRAIN_R2': 1.0, 'MAE': 0.0, 'MSE': 0.0, 'RMSE': 0.0, 'TEST_R2': 1.0}
+67: {'params': {'alpha': 100.0, 'copy_X': True, 'fit_intercept': True, 'solver': 'cholesky'}, 'TRAIN_R2': 1.0, 'MAE': 3.1534486568839466e-05, 'MSE': 1.1212555772722215e-09, 'RMSE': 3.3485154580384146e-05, 'TEST_R2': 1.0}
+68: {'params': {'alpha': 100.0, 'copy_X': True, 'fit_intercept': True, 'solver': 'cholesky'}, 'TRAIN_R2': 0.4771493225928085, 'MAE': 32068912288.43111, 'MSE': 1.4373087119457132e+21, 'RMSE': 37911854504.17472, 'TEST_R2': 0.48497202549982565}
+69: {'params': {'alpha': 100.0, 'copy_X': True, 'fit_intercept': True, 'solver': 'cholesky'}, 'TRAIN_R2': 1.0, 'MAE': 0.0, 'MSE': 0.0, 'RMSE': 0.0, 'TEST_R2': 1.0}
+70: {'params': {'alpha': 100.0, 'copy_X': True, 'fit_intercept': True, 'solver': 'cholesky'}, 'TRAIN_R2': 0.9999999980594585, 'MAE': 2364160.9014476277, 'MSE': 5790496958205.62, 'RMSE': 2406345.1452785446, 'TEST_R2': 0.9999999980641405}
+71: {'params': {'alpha': 100.0, 'copy_X': True, 'fit_intercept': True, 'solver': 'cholesky'}, 'TRAIN_R2': 1.0, 'MAE': 0.0, 'MSE': 0.0, 'RMSE': 0.0, 'TEST_R2': 1.0}
+72: {'params': {'alpha': 100.0, 'copy_X': True, 'fit_intercept': True, 'solver': 'cholesky'}, 'TRAIN_R2': 1.0, 'MAE': 0.0, 'MSE': 0.0, 'RMSE': 0.0, 'TEST_R2': 1.0}
+73: {'params': {'alpha': 100.0, 'copy_X': True, 'fit_intercept': True, 'solver': 'cholesky'}, 'TRAIN_R2': 0.9415329061287772, 'MAE': 5612557500.022212, 'MSE': 4.441922299610877e+19, 'RMSE': 6664774789.601579, 'TEST_R2': 0.9408847884123772}
+74: {'params': {'alpha': 100.0, 'copy_X': True, 'fit_intercept': True, 'solver': 'cholesky'}, 'TRAIN_R2': 0.4581473888262011, 'MAE': 24045297958.43676, 'MSE': 9.675422345680802e+20, 'RMSE': 31105340933.159378, 'TEST_R2': 0.4572845801104145}
+75: {'params': {'alpha': 100.0, 'copy_X': True, 'fit_intercept': True, 'solver': 'cholesky'}, 'TRAIN_R2': 0.9999999988941829, 'MAE': 822313.5546556422, 'MSE': 699592284043.7241, 'RMSE': 836416.3341564559, 'TEST_R2': 0.9999999989052097}
+76: {'params': {'alpha': 100.0, 'copy_X': True, 'fit_intercept': True, 'solver': 'cholesky'}, 'TRAIN_R2': 0.9999999999987615, 'MAE': 11674.897323836058, 'MSE': 337625790.76841205, 'RMSE': 18374.59634300607, 'TEST_R2': 0.999999999998957}
+77: {'params': {'alpha': 100.0, 'copy_X': True, 'fit_intercept': True, 'solver': 'cholesky'}, 'TRAIN_R2': 0.5327331200170737, 'MAE': 55510210384.1847, 'MSE': 4.2348996331655156e+21, 'RMSE': 65076106469.00685, 'TEST_R2': 0.536902219140952}
+78: {'params': {'alpha': 100.0, 'copy_X': True, 'fit_intercept': True, 'solver': 'cholesky'}, 'TRAIN_R2': 1.0, 'MAE': 0.0, 'MSE': 0.0, 'RMSE': 0.0, 'TEST_R2': 1.0}
+79: {'params': {'alpha': 100.0, 'copy_X': True, 'fit_intercept': True, 'solver': 'cholesky'}, 'TRAIN_R2': 0.6200921700069488, 'MAE': 15508285952.907482, 'MSE': 3.244193287411427e+20, 'RMSE': 18011644254.23572, 'TEST_R2': 0.619351172756476}
+80: {'params': {'alpha': 100.0, 'copy_X': True, 'fit_intercept': True, 'solver': 'cholesky'}, 'TRAIN_R2': 0.1343887138420623, 'MAE': 75108311006.52301, 'MSE': 1.0367827098404146e+22, 'RMSE': 101822527460.30293, 'TEST_R2': 0.12054654051564218}
+81: {'params': {'alpha': 100.0, 'copy_X': True, 'fit_intercept': True, 'solver': 'cholesky'}, 'TRAIN_R2': 0.8479049028538732, 'MAE': 21180897458.43643, 'MSE': 6.669550417738807e+20, 'RMSE': 25825472730.888794, 'TEST_R2': 0.8487920675755434}
+82: {'params': {'alpha': 100.0, 'copy_X': True, 'fit_intercept': True, 'solver': 'cholesky'}, 'TRAIN_R2': 0.4406633857025777, 'MAE': 30118107222.855762, 'MSE': 1.3869664933928968e+21, 'RMSE': 37241999052.05005, 'TEST_R2': 0.4421812646758666}
+83: {'params': {'alpha': 100.0, 'copy_X': True, 'fit_intercept': True, 'solver': 'cholesky'}, 'TRAIN_R2': 1.0, 'MAE': 0.0, 'MSE': 0.0, 'RMSE': 0.0, 'TEST_R2': 1.0}
+84: {'params': {'alpha': 100.0, 'copy_X': True, 'fit_intercept': True, 'solver': 'cholesky'}, 'TRAIN_R2': 0.15554989493933735, 'MAE': 44162858097.188484, 'MSE': 2.381390796207314e+21, 'RMSE': 48799495860.17579, 'TEST_R2': 0.1642249420551859}
+85: {'params': {'alpha': 100.0, 'copy_X': True, 'fit_intercept': True, 'solver': 'cholesky'}, 'TRAIN_R2': 1.0, 'MAE': 0.0, 'MSE': 0.0, 'RMSE': 0.0, 'TEST_R2': 1.0}
+86: {'params': {'alpha': 100.0, 'copy_X': True, 'fit_intercept': True, 'solver': 'cholesky'}, 'TRAIN_R2': 0.9688385547314939, 'MAE': 3100280688.6829786, 'MSE': 2.0090976706530857e+19, 'RMSE': 4482295919.116771, 'TEST_R2': 0.9689228120298641}
+87: {'params': {'alpha': 100.0, 'copy_X': True, 'fit_intercept': True, 'solver': 'cholesky'}, 'TRAIN_R2': 0.9999999999838461, 'MAE': 45998.689464872135, 'MSE': 15889275668.854326, 'RMSE': 126052.67021707365, 'TEST_R2': 0.9999999999847267}
+88: {'params': {'alpha': 100.0, 'copy_X': True, 'fit_intercept': True, 'solver': 'cholesky'}, 'TRAIN_R2': 1.0, 'MAE': 0.0, 'MSE': 0.0, 'RMSE': 0.0, 'TEST_R2': 1.0}
+89: {'params': {'alpha': 100.0, 'copy_X': True, 'fit_intercept': True, 'solver': 'cholesky'}, 'TRAIN_R2': 0.9999999685850954, 'MAE': 10832806.68019859, 'MSE': 155143127436260.62, 'RMSE': 12455646.4078048, 'TEST_R2': 0.9999999688499537}
+90: {'params': {'alpha': 100.0, 'copy_X': True, 'fit_intercept': True, 'solver': 'cholesky'}, 'TRAIN_R2': 1.0, 'MAE': 0.0, 'MSE': 0.0, 'RMSE': 0.0, 'TEST_R2': 1.0}

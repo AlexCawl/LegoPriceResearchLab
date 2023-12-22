@@ -1,3 +1,4 @@
 /venv/
 /.idea/
 /.data/lego-dataset-content.csv
+/catboost_info/

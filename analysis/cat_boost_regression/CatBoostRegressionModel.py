@@ -40,12 +40,12 @@ class CatBoostRegressionModel(RegressionModelApi):
         return self.__report.copy()
 
     @measure_execution_time
-    def train(self, *, x_train: pd.DataFrame, y_train: pd.DataFrame) -> None:
+    def train(self, x: pd.DataFrame, y: pd.DataFrame, path: Optional[str] = None) -> None:
         # change state
         self.__state = True
         # train model
-        self.__estimator.fit(X=x_train, y=y_train, verbose=0)
-        r2: float = self.__estimator.score(X=x_train, y=y_train.to_numpy())
+        self.__estimator.fit(X=x, y=y.to_numpy(), verbose=0)
+        r2: float = self.__estimator.score(X=x, y=y.to_numpy())
         self.__report.update(
             {
                 "TRAIN_R2": r2 if r2 >= -1 else -1
@@ -53,19 +53,18 @@ class CatBoostRegressionModel(RegressionModelApi):
         )
 
     @measure_execution_time
-    def test(self, *, x_test: pd.DataFrame, y_test: pd.DataFrame, output_path: Optional[str] = None) -> Tuple[
-        pd.DataFrame, pd.DataFrame]:
+    def test(self, x: pd.DataFrame, y: pd.DataFrame, path: Optional[str] = None) -> Tuple[pd.DataFrame, pd.DataFrame]:
         if not self.__state:
             raise Exception("Model not trained!")
 
-        prediction = self.__estimator.predict(x_test)
-        r2 = r2_score(y_test, prediction)
+        prediction = self.__estimator.predict(x)
+        r2 = r2_score(y, prediction)
         self.__report.update(
             {
-                "MAE": mean_absolute_error(y_test, prediction),
-                "MSE": mean_squared_error(y_test, prediction),
-                "RMSE": mean_squared_error(y_test, prediction, squared=False),
+                "MAE": mean_absolute_error(y, prediction),
+                "MSE": mean_squared_error(y, prediction),
+                "RMSE": mean_squared_error(y, prediction, squared=False),
                 "TEST_R2": r2 if r2 >= -1 else -1
             }
         )
-        return y_test, prediction
+        return y, prediction

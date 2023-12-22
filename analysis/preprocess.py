@@ -1,3 +1,4 @@
+import random
 from typing import Tuple, Dict, Any
 
 import pandas as pd
@@ -24,6 +25,12 @@ def preprocess(lego: pd.DataFrame) -> Tuple[pd.DataFrame, Dict[str, LabelEncoder
     for feature in text_features:
         encoders_table[feature] = LabelEncoder()
         lego[feature] = encoders_table[feature].fit_transform(lego[feature])
+    lego.drop_duplicates(inplace=True, ignore_index=True)
+
+    # prices = lego['Set Price']
+    # prices = prices.apply(lambda x: x + random.randint(-5000, 5000))
+    # lego['Set Price'] = prices
+
     return lego, encoders_table
 
 

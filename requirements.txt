@@ -71,3 +71,4 @@ matplotlib
 seaborn
 jupyter
 catboost
+pycaret==2.2.2

@@ -6,9 +6,9 @@ from analysis.SelectiveWrapper import SelectiveWrapper
 from analysis.api import RegressionModelApi
 from analysis.cat_boost_regression import CatBoostRegressionModelFactory
 from analysis.gradient_boosting_regression import GradientBoostingRegressionModelFactory
-from analysis.linear_regression import LeastSquaresLinearRegressionModelFactory
-from analysis.neural_network_regression import NeuralNetworkRegressionModelFactory
+from analysis.linear_regression import LeastSquaresLinearRegressionModelFactory, RidgeLinearRegressionModelFactory
 from analysis.preprocess import preprocess, split
+from analysis.random_forest_regression import RandomForestRegressionModelFactory
 from util import logger
 from util.constants import LOG_FOLDER_PATH
 from util.loader import load_to_script
@@ -53,8 +53,9 @@ if __name__ == "__main__":
     initial: pd.DataFrame = load_to_script()
     # models
     models: List[Callable[[], RegressionModelApi]] = list()
-    models.append(LeastSquaresLinearRegressionModelFactory)
-    models.append(NeuralNetworkRegressionModelFactory)
-    models.append(GradientBoostingRegressionModelFactory)
-    models.append(CatBoostRegressionModelFactory)
+    # models.append(LeastSquaresLinearRegressionModelFactory)
+    # models.append(GradientBoostingRegressionModelFactory)
+    models.append(RidgeLinearRegressionModelFactory)
+    # models.append(CatBoostRegressionModelFactory)
+    # models.append(RandomForestRegressionModelFactory)
     main(initial, models, log, out)
