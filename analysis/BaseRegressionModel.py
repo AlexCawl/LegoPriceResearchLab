@@ -41,7 +41,7 @@ class BaseRegressionModel(RegressionModelApi):
         # init params
         self.__params = params
         # init cross-validator
-        self.__cv = RepeatedStratifiedKFold(n_splits=4, n_repeats=1, random_state=36851234)
+        self.__cv = RepeatedStratifiedKFold(n_splits=3, n_repeats=1, random_state=36851234)
         # init logs
         self.__report = dict()
         # init search
@@ -80,7 +80,7 @@ class BaseRegressionModel(RegressionModelApi):
         )
 
     @measure_execution_time
-    def test(self, x: pd.DataFrame, y: pd.DataFrame, path: Optional[str] = None) -> None:
+    def test(self, x: pd.DataFrame, y: pd.DataFrame, path: Optional[str] = None) -> Tuple[pd.DataFrame, pd.DataFrame]:
         if not self.__state:
             raise Exception("Model not trained!")
 
@@ -94,3 +94,4 @@ class BaseRegressionModel(RegressionModelApi):
                 "TEST_R2": r2 if r2 >= -1 else -1
             }
         )
+        return y, prediction

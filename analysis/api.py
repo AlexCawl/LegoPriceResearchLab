@@ -14,5 +14,5 @@ class RegressionModelApi:
         ...
 
     @abstractmethod
-    def test(self, x: pd.DataFrame, y: pd.DataFrame, path: Optional[str] = None) -> None:
+    def test(self, x: pd.DataFrame, y: pd.DataFrame, path: Optional[str] = None) -> Tuple[pd.DataFrame, pd.DataFrame]:
         ...

@@ -2,11 +2,12 @@ from datetime import datetime
 from typing import Optional, TextIO, Dict, Any
 
 from util.constants import LOG_COMMON_NAME
+from util.namespace import get_absolute_path_for_directory_and_make_it
 
 
-def access_log(path: Optional[str]) -> Optional[str]:
+def access_log(*, path: Optional[str]) -> Optional[str]:
     if path is not None:
-        return f"{path}/{LOG_COMMON_NAME}"
+        return f"{get_absolute_path_for_directory_and_make_it(f'{path}')}/{LOG_COMMON_NAME}"
     else:
         return None
 
