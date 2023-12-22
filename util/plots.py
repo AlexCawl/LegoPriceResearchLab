@@ -33,17 +33,21 @@ def regression_visualization(analytics: pd.DataFrame, path: str, name: str) -> N
 
 def regressions_scores(analytics: pd.DataFrame, path: str, name: str) -> None:
     plt.clf()
-    _, axs = plt.subplots(nrows=3, figsize=(8, 12))
+    _, axs = plt.subplots(nrows=3, figsize=(20, 12))
     # MAE plot
+    plt.xticks(rotation=90)
     sns.lineplot(data=analytics, x='Theme name', y='MAE', ax=axs[0])
     # MSE plot
+    plt.xticks(rotation=90)
     sns.lineplot(data=analytics, x='Theme name', y='MSE', ax=axs[1])
     # RMSE plot
+    plt.xticks(rotation=90)
     sns.lineplot(data=analytics, x='Theme name', y='RMSE', ax=axs[2])
     plt.savefig(f"{path}/{name}-errors.png")
     plt.clf()
     # R2 plot
-    _, axs = plt.subplots(figsize=(12, 8))
+    _, axs = plt.subplots(figsize=(20, 8))
+    plt.xticks(rotation=90)
     sns.lineplot(data=analytics, x='Theme name', y='R2', hue='type')
     plt.savefig(f"{path}/{name}-r2.png")
     plt.clf()

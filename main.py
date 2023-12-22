@@ -4,7 +4,10 @@ import pandas as pd
 
 from analysis.SelectiveWrapper import SelectiveWrapper
 from analysis.api import RegressionModelApi
+from analysis.cat_boost_regression import CatBoostRegressionModelFactory
+from analysis.gradient_boosting_regression import GradientBoostingRegressionModelFactory
 from analysis.linear_regression import LeastSquaresLinearRegressionModelFactory
+from analysis.neural_network_regression import NeuralNetworkRegressionModelFactory
 from analysis.preprocess import preprocess, split
 from util import logger
 from util.constants import LOG_FOLDER_PATH
@@ -51,4 +54,7 @@ if __name__ == "__main__":
     # models
     models: List[Callable[[], RegressionModelApi]] = list()
     models.append(LeastSquaresLinearRegressionModelFactory)
+    models.append(NeuralNetworkRegressionModelFactory)
+    models.append(GradientBoostingRegressionModelFactory)
+    models.append(CatBoostRegressionModelFactory)
     main(initial, models, log, out)
