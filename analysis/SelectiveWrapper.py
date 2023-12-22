@@ -33,12 +33,18 @@ class SelectiveWrapper(RegressionModelApi):
 
     @measure_execution_time
     def get_info(self) -> Dict[Any, Any]:
+        solvers_info: Dict[Any, Dict[Any, Any]] = dict()
         for key, model in self.__solvers.items():
-            self.__report.update(
+            solvers_info.update(
                 {
                     f"{key}": model.get_info()
                 }
             )
+        self.__report.update(
+            {
+                "SOLVERS_INFO": solvers_info
+            }
+        )
         return self.__report
 
     @measure_execution_time
@@ -58,12 +64,11 @@ class SelectiveWrapper(RegressionModelApi):
             self, x: pd.DataFrame, y: pd.DataFrame
     ) -> Dict[Any, Tuple[pd.DataFrame, pd.DataFrame]]:
         # get factors/targets
-        factor_vars = list(x.columns.names)
-        factor_vars.remove(self.__selective_variable_name)
-        target_vars = list(y.columns.names)
+        factor_vars = list(x.columns)
+        target_vars = list(y.columns)
 
         # concat to original dataframe
-        original_dataframe = pd.concat([x, y], ignore_index=True)
+        original_dataframe = pd.concat([x, y], axis=1)
 
         # get selective values
         selective_values = set(original_dataframe[self.__selective_variable_name].unique())
